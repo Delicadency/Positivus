@@ -4,8 +4,8 @@ import "./globals.css";
 
 const spaceGrotesk = localFont({
   src: "./fonts/SpaceGrotesk.woff",
-  variable: "--font-SpaceGrotesk",
   weight: "400 700",
+  variable: "--font-space-grotesk",
 });
 
 export const metadata: Metadata = {
@@ -20,9 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${spaceGrotesk.variable}  antialiased`}
-      >
+      <body className={`${spaceGrotesk.className} font-sans antialiased`}>
         {children}
       </body>
     </html>

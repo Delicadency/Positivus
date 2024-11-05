@@ -8,9 +8,36 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Space Grotesk", "sans-serif"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        white: "#ffffff",
+        dark: "#191a23",
+        greyLight: "#f3f3f3",
+        lime: "#b9ff66",
+        black: "#00000",
+      },
+      screens: {
+        desktop: "1440px",
+      },
+      fontSize: {
+        "12": "12px",
+        "14": "14px",
+        "16": "16px",
+        "18": "18px",
+        "20": "20px",
+        "22": "22px",
+        "24": "24px",
+        "26": "26px",
+        "28": "28px",
+        "30": "30px",
+        "32": "32px",
+        "34": "34px",
+        "36": "36px",
+        "48": "48px",
+        "44": "44px",
+        "50": "50px",
       },
     },
   },
