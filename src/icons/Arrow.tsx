@@ -1,5 +1,5 @@
 import { IconProps } from "@/utils/types";
-const Arrow = ({ className }: IconProps) => {
+export const Arrow = ({ className }: IconProps) => {
   return (
     <svg
       width="21"
