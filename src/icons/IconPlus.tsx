@@ -12,7 +12,7 @@ export const IconPlus = ({ className }: IconProps) => {
     >
       <path
         d="M9.6 25.08V15.36H0V9.72H9.6V0H15.48V9.72H25.08V15.36H15.48V25.08H9.6Z"
-        fill="#191A23"
+        fill="currentColor"
       />
     </svg>
   );

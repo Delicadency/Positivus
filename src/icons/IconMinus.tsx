@@ -10,7 +10,7 @@ export const IconMinus = ({ className }: IconProps) => {
       xmlns="http://www.w3.org/2000/svg"
       className={className}
     >
-      <path d="M0 5.64V0H17.76V5.64H0Z" fill="black" />
+      <path d="M0 5.64V0H17.76V5.64H0Z" fill="currentColor" />
     </svg>
   );
 };
